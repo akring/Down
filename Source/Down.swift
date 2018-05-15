@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Down: DownASTRenderable, DownHTMLRenderable, DownXMLRenderable,
+open class Down: DownASTRenderable, DownHTMLRenderable, DownXMLRenderable,
                     DownLaTeXRenderable, DownGroffRenderable, DownCommonMarkRenderable,
                     DownAttributedStringRenderable {
     /**
